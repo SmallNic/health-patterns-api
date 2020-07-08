@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_time: 2020-07-08 13:59:36
+  end_time: 2020-07-08 13:59:36
+  minutes_asleep: 1
+  minutes_awake: 1
+  num_awakenings: 1
+  time_in_bed: 1
+  minutes_rem: 1
+  minutes_light: 1
+  minutes_deep: 1
+
+two:
+  start_time: 2020-07-08 13:59:36
+  end_time: 2020-07-08 13:59:36
+  minutes_asleep: 1
+  minutes_awake: 1
+  num_awakenings: 1
+  time_in_bed: 1
+  minutes_rem: 1
+  minutes_light: 1
+  minutes_deep: 1

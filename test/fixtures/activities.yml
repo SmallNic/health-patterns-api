@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2020-07-08 13:58:07
+  calories_burned: 1
+  steps: 1
+  distance: 1
+  floors: 1
+  minutes_sedentary: 1
+  minutes_lightly_active: 1
+  minutes_fairly_active: 1
+  minutes_very_active: 1
+  activity_calories: 1
+
+two:
+  date: 2020-07-08 13:58:07
+  calories_burned: 1
+  steps: 1
+  distance: 1
+  floors: 1
+  minutes_sedentary: 1
+  minutes_lightly_active: 1
+  minutes_fairly_active: 1
+  minutes_very_active: 1
+  activity_calories: 1
