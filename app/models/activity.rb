@@ -3,4 +3,8 @@ class Activity < ApplicationRecord
     :minutes_sedentary, :minutes_lightly_active, :minutes_fairly_active, 
     :minutes_very_active, :activity_calories
 
+  def self.by_month(month)
+    where('extract(month from date) = ?', month)
+  end
+
 end

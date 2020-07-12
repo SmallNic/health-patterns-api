@@ -1,24 +1,62 @@
-# README
+# Health Insights API Readme
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Health Insights API is a back-end application that serves Fitbit-tracked health data as JSON. 
 
-Things you may want to cover:
+![Fitbit Data](./public/images/sample-health-data2.png)
 
-* Ruby version
+## Technology Used
 
-* System dependencies
+---
 
-* Configuration
+This project uses
 
-* Database creation
+* Ruby v2.4.0
+* Rails 5.2.4.3
 
-* Database initialization
 
-* How to run the test suite
+## Get Started
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+###  Clone the repo
 
-* Deployment instructions
+```
+$ git clone
+$ cd health-patterns-api
+```
 
-* ...
+### Check your Ruby version
+
+```
+$ ruby -v
+```
+
+If your version is earlier than the Ruby version above, you may need to update it. You can use [Ruby Version Manager (RVM)](https://rvm.io/) to install and select the proper Ruby environment.
+
+### Install Dependencies
+
+Perform a bundle install:
+
+```
+$ bundle
+```
+
+### Initialize the database
+
+```
+$ rake db:create db:migrate import:fitbit_data
+```
+
+### Verify successful import
+
+```
+$ rails console
+> Activity.count
+```
+
+If you get back any number greater than 0, the import was successful. Type `exit` to get out of the console.
+
+### Start the dev server
+
+```
+$ rails s
+```
