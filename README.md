@@ -20,7 +20,7 @@ This project uses
 ###  Clone the repo
 
 ```
-$ git clone
+$ git clone https://github.com/SmallNic/health-patterns-api.git
 $ cd health-patterns-api
 ```
 
